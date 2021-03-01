@@ -1,0 +1,278 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+
+@section Menu{
+
+    <nav>
+        <ul>
+            <li class="has-dropdown">
+                <a class="active main-menu-link" asp-controller="Home" asp-action="Index">Главная </a>
+            </li>
+            <li>
+                <a asp-action="Abouts">О Компании</a>
+            </li>
+            <li>
+                <a asp-controller="Home" asp-action="Contact">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+}
+
+<!-- ...:::: Start Hero Area Section:::... -->
+<div class="hero-area">
+    <div class="hero-area-wrapper hero-slider-dots fix-slider-dots">
+        <!-- Start Hero Slider Single -->
+        <div class="hero-area-single">
+            <div class="hero-area-bg">
+                <img class="hero-img" src="assets/images/slider_images/sh_1.png" alt="">
+            </div>
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10 col-md-8 col-xl-6">
+                            <h5>Лучшее качество</h5>
+                            <h2>Автозапчасти</h2>
+                            <p>Большой выбор автозапчастей для разных авто</p>
+                            <a href="https://se-pps.ru" class="hero-button">Перейти к покупкам</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Hero Slider Single -->
+        <!-- Start Hero Slider Single -->
+        <div class="hero-area-single">
+            <div class="hero-area-bg">
+                <img class="hero-img" src="assets/images/slider_images/sh_2.png" alt="">
+            </div>
+            <div class="hero-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10 col-md-8 col-xl-6">
+                            <h5>Лучшее качество</h5>
+                            <h2>Аксессуары</h2>
+                            <p>Большой выбор аксессуаров для вашего авто.</p>
+                            <a href="https://se-pps.ru" class="hero-button">Перейти к покупкам</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Hero Slider Single -->
+    </div>
+</div> <!-- ...:::: End Hero Area Section:::... -->
+<!-- ...:::: Start Product Catagory Section:::... -->
+<div class="product-catagory-section section-top-gap-100">
+    <!-- Start Section Content -->
+    <div class="section-content-gap">
+        <div class="container">
+            <div class="row">
+                <div class="section-content">
+                    <h3 class="section-title">Краткий каталог</h3>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Section Content -->
+    <!-- Start Catagory Wrapper -->
+    <div class="product-catagory-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=TRUCKS_NATIVE" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/kamaz.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Грузовики</h5>
+                            <span class="product-catagory-items">отечественные</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=TRUCKS_FOREIGN" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/bigcar.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Грузовики</h5>
+                            <span class="product-catagory-items">иномарки</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=BUS" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/bus.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Автобусы</h5>
+                            <span class="product-catagory-items"></span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=SPECIAL_TECH_NATIVE" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/rsm.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Спецтехника</h5>
+                            <span class="product-catagory-items">отечественная</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=SPECIAL_TECH_FOREIGN" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/speccar.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Спецтехника</h5>
+                            <span class="product-catagory-items">Импортная</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=ENGINE" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/driver.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Двигатели</h5>
+                            <span class="product-catagory-items">большой выбор</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2/?action=marks&typeCatalog=MOTORCYCLE" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/moto.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Мототехника</h5>
+                            <span class="product-catagory-items">большой выбор</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                    <!-- Start Product Catagory Single -->
+                    <a href="https://se-pps.ru/auto2dV2" class="product-catagory-single">
+                        <div class="product-catagory-img">
+                            <img src="assets/images/categories_images/car.png" alt="">
+                        </div>
+                        <div class="product-catagory-content">
+                            <h5 class="product-catagory-title">Легковые авто </h5>
+                            <span class="product-catagory-items">всех производителей</span>
+                        </div>
+                    </a> <!-- End Product Catagory Single -->
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Catagory Wrapper -->
+</div> <!-- ...:::: End Product Catagory Section:::... -->
+<div class="about-us-center-area section-top-gap-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="about-us-center-content text-center">
+                    <h4>Почему выбирают нас?</h4>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-promo-single-item">
+                    <img src="assets/images/icon/about-icon-1.jpg" alt="">
+                    <h6>Наш прайс</h6>
+                    <p>Огромный выбор комплектующих от простой легковушки, до спецтехники отечественного и импортного производства</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-promo-single-item">
+                    <img src="assets/images/icon/about-icon-2.jpg" alt="">
+                    <h6>Доставка</h6>
+                    <p>Доставка заказа осуществляется от склада до вашей двери.</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-promo-single-item">
+                    <img src="assets/images/icon/about-icon-3.jpg" alt="">
+                    <h6>Онлайн поддержка</h6>
+                    <p>Наши специалисты всегда готовы помочь вам в выборе комплектующих в нашем магазине.</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="about-us-bottom-area section-top-gap-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-feature-single-item">
+                    <img class="img-fluid" src="assets/images/about/roznica.png" alt="">
+                    <h6>Розница</h6>
+                    <p>Любой да же самый маленький клиент для нас важен. Для вас мы подбираем надёжных производителей и осуществляем поставку до двери от одного до пяти дней.</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-feature-single-item">
+                    <img class="img-fluid" src="assets/images/about/optovik.png" alt="">
+                    <h6>Оптовикам</h6>
+                    <p>Удобный поиск, большой выбор, быстрая доставка во все регионы России. Возможность получать товар на реализацию.</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <!-- Start About Promo Single Item -->
+                <div class="about-feature-single-item">
+                    <img class="img-fluid" src="assets/images/about/postavchik.png" alt="">
+                    <h6>Поставщикам</h6>
+                    <p>Мы рассматриваем сотрудничество с поставщиками и производителями как одно из основных направлений развития компании.</p>
+                </div> <!-- End About Promo Single Item -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ...:::: Start Company Logo Section:::... -->
+<div class="company-logo-section section-top-gap-100">
+    <!-- Start Company Logo Wrapper -->
+    <div class="company-logo-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="company-logo-slider">
+                        <!-- Start Company logo Single -->
+                        <div class="company-logo-single">
+                            <img src="assets/images/company_logo/vaz_logo_1.png" alt="" class="img-fluid company-logo-image">
+                        </div> <!-- End Company logo Single -->
+                        <!-- Start Company logo Single -->
+                        <div class="company-logo-single">
+                            <img src="assets/images/company_logo/holland_logo_4.png" alt="" class="img-fluid company-logo-image">
+                        </div> <!-- End Company logo Single -->
+                        <!-- Start Company logo Single -->
+                        <div class="company-logo-single">
+                            <img src="assets/images/company_logo/iveco_logo_4.png" alt="" class="img-fluid company-logo-image">
+                        </div> <!-- End Company logo Single -->
+                        <!-- Start Company logo Single -->
+                        <div class="company-logo-single">
+                            <img src="assets/images/company_logo/rsm_logo_4.png" alt="" class="img-fluid company-logo-image">
+                        </div> <!-- End Company logo Single -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- End Company Logo Wrapper -->
+</div> <!-- ...:::: End Company Logo Section:::... -->

@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "О компании";
+}
+
+@section Menu{
+
+    <nav>
+        <ul>
+            <li class="has-dropdown">
+                <a asp-controller="Home" asp-action="Index">Главная </a>
+            </li>
+            <li>
+                <a class="active main-menu-link" asp-action="Abouts">О Компании</a>
+            </li>
+            <li>
+                <a asp-controller="Home" asp-action="Contact">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+}
+
+
+<!-- ...:::: Start Breadcrumb Section:::... -->
+<div class="breadcrumb-section">
+    <div class="breadcrumb-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between justify-content-md-between  align-items-center flex-md-row flex-column">
+                    <h3 class="breadcrumb-title">О Компании</h3>
+                    <div class="breadcrumb-nav">
+                        <nav aria-label="breadcrumb">
+                            <ul>
+                                <li><a asp-action="Index">Главная</a></li>
+                                <li class="active" aria-current="page">О Компании</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- ...:::: End Breadcrumb Section:::... -->
+<!-- ...::::Start About Us Top Section:::... -->
+<div class="about-us-top-area section-top-gap-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="about-us-top-img">
+                    <img class="img-fluid" src="/assets/images/about/deliver.png" alt="">
+                </div>
+                <div class="about-us-top-content text-center">
+                    <h4>Добро пожаловать в S8 + STORE PARTS!</h4>
+                    <p>
+                        S8 + STORE PARTS  полностью онлайн компания: у компании нет собственных отделений. Основной продукт для физических, юридических лиц - запасные части, расходные материалы, продукты ГСМ, комплектующие, аксессуары, для автомобилей импортного производства. Клиенты компании могут приобрести детали для автомобиля - за наличный, безналичный, кредитный расчет от АО “Тинькофф Банк”.
+                    </p>
+
+                    <p>    S8 + STORE PARTS - продает запасные части, расходные материалы, продукты ГСМ, комплектующие, аксессуары, для автомобилей импортного производства поставляя #1. от прямых поставщиков со всего мира #2. от надежных поставщиков со всего мира готовых предложить - (#1. лучшее предложение цены #2. предоставить деталь лучшего качества #3. поставить деталь клиенту с минимальными сроками #4. предоставить официальную гарантию на деталь и возможность возврата детали в течении 14 календарных дней в случае брака опираясь на закон о защите прав потребителя.</p>
+                    <p>
+
+                        В 2020 году был создан персональный бренд S8 + BY BOBRYSH N&K под личным брендом подразумевается создание более 30 бизнес продуктов для потребителей всего Мира. Одним из направлений является S8 + STORE PARTS продукт запасные части для легковых автомобилей, грузовых автомобилей, пассажирских автомобилей, строительных автомобилей импортного производства а также сельскохозяйственной техники, самолетов, вертолетов.
+                    </p>
+
+                    <p>    S8 + STORE PARTS продает лучшие запчасти лучшим клиентам, каждый клиент для компании является лучшим. Ежедневно в компании трудится более 500 человек над обработкой, сбором, доставкой запчастей лучшего качества.</p>
+
+                    <p> Мы работаем для вас лучших продавая лучшее!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> <!-- End About Us Top Section:::... -->
